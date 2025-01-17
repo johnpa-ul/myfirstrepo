@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registrtation Page</title>
+</head>
+
+
+    
+   <form action="#">
+  <body style="background-color:skyblue;">
+    
+    <br>
+    <br>
+
+
+    <div>
+      <label for="firstname">Firstname:</label>
+      <input type="text" name="firstname" required>
+    </div>
+    <br>
+    <div>
+      <label for="middlename">Middlename:</label>
+      <input type="text" name="middlename" required>
+    </div>
+    <br>
+    <div>
+      <label for="lastname">Lastname:</label>
+      <input type="text" name="lastname" required>
+    </div>
+   <br>
+    <div>
+      <label for="course">Course:</label>
+      <select name="course" required>
+          <option value="male">BSIT</option>
+          <option value="female">BSCS</option>
+          <option value="other">BHRM</option>
+          <option value="other">BCRIM</option>
+      </select>
+      <br> 
+      <br>
+      
+      <label for="gender">Gender:</label><br>
+      <input type="radio" name="gender" value="male" >Male
+      <br>
+      <input type="radio" name="gender" value="female" >Female
+      <br>
+      <input type="radio" name="gender" value="other" >Other
+
+      <br>
+       <br>
+
+      <label for="phone">Phone:</label>   
+      <input type="tel" name="phone" pattern="" >
+        
+      
+      
+      <br>
+       <br>
+
+
+      <div>
+        <label for="address">Address</label><br>
+       <textarea name="address"  rows="4" > </textarea>
+      </div>
+
+      <br>
+      <br>
+
+      <div>
+        <label for="email">Email:</label>
+        <input type="Email" name="email" required>
+      </div>
+
+     <br>
+    <br>
+     <div>
+       <label for="password">Pasword:</label>
+       <input type="password" name="Password" required>
+     </div>
+      <br>
+       <br>
+     <div>
+        <label for="retypepassword">Re-type Password:</label>
+          <input type="number" name="age" readonly>
+     </div>
+          <br>
+        <br>
+    
+      
+       <button type="submit">Submit</button>
+     
+</body>
+
+
+     
+</form>
+
+</html>
